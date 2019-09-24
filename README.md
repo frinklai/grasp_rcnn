@@ -30,17 +30,17 @@ rosrun grasp_rcnn demo_graspRGD.py
 
 ### Running by another node, grcnn as a python module
 ```  
-cd src/rs_d435i/
+cd <ros_ws>/src/<repo>/
 source create_catkin_ws.sh
-cd ../..
+cd <ros_ws>
 . /devel/setup.bash
 roslaunch realsense2_camera rs_rgbd.launch
 ```
 
-open new terminal  
+open new terminal   
 
 ```  
-cd <ros_ws>/src
+cd <ros_ws>/src/<repo>
 rosrun custom_stra grcnn_module.py
 ```
 
